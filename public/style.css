@@ -1,0 +1,71 @@
+/*body {
+    font-family: 'PT Mono', 'PT Sana', Futura, Arial;
+    background-color: rgb(245, 245, 240);
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background: lightblue;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+}
+
+#title {
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+form {
+    text-align: center;
+}
+
+#left {
+    position: relative;
+    width: 576px;
+    height: 324px;
+}
+
+#right {
+    position: relative;
+    width: 576px;
+    height: 324px;
+}
+
+@media screen and (min-width: 1152px) {
+    #app {
+    }
+
+    #left {
+        order: 1;
+    }
+
+    #right {
+        order: 2;
+    }
+}
+
+.side h3 {
+    text-align: center;
+}
+
+#victory,
+#loss {
+    text-align: center;
+}
+*/
