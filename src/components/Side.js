@@ -10,6 +10,7 @@ export default class Side extends React.Component {
         const chosen = Object.values(e.target.elements)
             .filter(el => el.checked)
             .map(el => el.value);
+
         const error = this.handleSideState(chosen);
         this.setState(() => {
             return { error };
@@ -36,7 +37,7 @@ export default class Side extends React.Component {
     render() {
         return (
             <div className="side" id={this.props.location}>
-                <h3>{`${this.props.location} side`.toUpperCase()}</h3>
+                <h3>{`${this.props.location} side`}</h3>
                 <div>
                     {this.state.error && <p>{this.state.error}</p>}
                     <form

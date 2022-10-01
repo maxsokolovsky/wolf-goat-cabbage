@@ -1,6 +1,5 @@
 body {
-    font-family: 'PT Mono', 'PT Sana', Futura, Arial;
-    background-color: rgb(245, 245, 240);
+    font-family: Arial, Helvetica;
 }
 
 #app {
@@ -68,4 +67,3 @@ form {
 #loss {
     text-align: center;
 }
-
